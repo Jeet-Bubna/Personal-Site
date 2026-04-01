@@ -1,6 +1,6 @@
 function Navbar() {
   return (
-    <div className="my-auto py-2.5">
+    <div className="my-auto py-2.5 font-navbar">
       <nav className="rounded-xl text-2xl">
         <ul className="list-none px-10 py-4 space-y-5">
           <li>
