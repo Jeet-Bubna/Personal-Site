@@ -1,3 +1,4 @@
+import MainScreen from "./components/MainScreen";
 import Navbar from "./components/Navbar";
 
 export default function Home() {
@@ -5,7 +6,7 @@ export default function Home() {
     <div className="">
       <div className="grid grid-cols-[250px_1fr] h-screen ">
         <Navbar />
-        <h1>Main Content</h1>
+        <MainScreen />
       </div>
     </div>
   );
