@@ -4,6 +4,7 @@ import { useState, useEffect, useRef, useCallback, forwardRef, memo } from "reac
 import dynamic from "next/dynamic";
 import styles from "./programming.module.css";
 import Terminal from "./Terminal"
+import Navbar from "../components/Navbar";
 
 const MarkdownRenderer = dynamic(() => import("./MarkdownRenderer"), { ssr: false });
 
@@ -81,6 +82,8 @@ export default function Programming() {
 
   return (
     <main className={styles.main}>
+
+      <Navbar/>
 
       {/* HERO */}
       <section className={styles.hero}>
