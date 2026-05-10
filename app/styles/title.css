@@ -1,0 +1,61 @@
+.main {
+  margin-top: 10vh;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffffff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.background {
+  position: relative;
+  width: 100%;
+  height: 220px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blurText {
+  position: absolute;
+  font-family: var(--font-great-vibes), "Dancing Script", cursive;
+  font-size: 10rem;
+  color: #cccccc;
+  letter-spacing: 0.01em;
+  user-select: none;
+  white-space: nowrap;
+  z-index: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.boldText {
+  position: relative;
+  z-index: 1;
+  font-family: var(--font-barrio), "Impact", sans-serif;
+  font-size: 4.2rem;
+  font-weight: 400;
+  letter-spacing: 0.14em;
+  color: #111111;
+  margin-top: 20px;
+}
+
+.imageWrapper {
+  width: 100%;
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.collageImage {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: top center;
+}

@@ -1,13 +1,12 @@
-import MainScreen from "./components/MainScreen";
+// app/page.tsx
 import Navbar from "./components/Navbar";
+import Title from "./components/Title";
 
 export default function Home() {
   return (
-    <div className="">
-      <div className="grid grid-cols-[250px_1fr] h-screen ">
-        <Navbar />
-        <MainScreen />
-      </div>
+    <div className="relative w-full h-screen overflow-hidden">
+      <Navbar />
+      <Title />
     </div>
   );
 }
