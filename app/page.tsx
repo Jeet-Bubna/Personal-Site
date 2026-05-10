@@ -1,11 +1,10 @@
-import Navbar from "./components/Navbar";
+import Title from "./components/Title";
 
 export default function Home() {
   return (
     <div className="">
       <div className="grid grid-cols-[250px_1fr] h-screen ">
-        <Navbar />
-        <h1>Main Content</h1>
+      <Title/>
       </div>
     </div>
   );
